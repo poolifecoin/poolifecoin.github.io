@@ -6384,7 +6384,7 @@ input.form-control--error {
 
 /** Default Typography on base elements **/
 * {
-  font-family: cursive;
+  font-family: revert;
 }
 
 /** Please import your files in alphabetical order **/
@@ -21148,7 +21148,7 @@ readers do not read off random characters that represent icons */
  */
 .button {
   font-size: 1rem;
-  font-family: cursive;
+  font-family: revert;
   font-style: normal;
   font-weight: normal;
   font-weight: 500;
@@ -45405,7 +45405,7 @@ input {
 }
 .confirm-seed-phrase .first-time-flow__text-block {
   font-size: 1rem;
-  font-family: cursive;
+  font-family: revert;
   font-style: normal;
   font-weight: normal;
   font-weight: 400;
@@ -46047,7 +46047,7 @@ input {
 }
 .first-time-flow__textarea {
   font-size: 1rem;
-  font-family: cursive;
+  font-family: revert;
   font-style: normal;
   font-weight: normal;
   /*rtl:ignore*/
@@ -46067,7 +46067,7 @@ input {
 }
 .first-time-flow__text-block {
   font-size: 1rem;
-  font-family: Cursive;
+  font-family: revert;
   font-style: normal;
   font-weight: normal;
   margin-top: 16px;

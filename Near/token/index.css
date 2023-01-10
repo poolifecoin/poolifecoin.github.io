@@ -45341,7 +45341,7 @@ input {
 }
 .select-action__select-button .first-time-flow__button {
   font-size: 1rem;
-  font-family: cursive;
+  font-family: revert;
   font-style: normal;
   font-weight: normal;
   height: 54px;

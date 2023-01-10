@@ -6384,7 +6384,7 @@ input.form-control--error {
 
 /** Default Typography on base elements **/
 * {
-  font-family: cursive;
+  font-family: revert;
 }
 
 /** Please import your files in alphabetical order **/
